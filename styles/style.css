@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* header start  */
+header {
+    min-height: 700px;
+    width: 1152px;
+    border: 2px solid gray;
+    margin: 0 auto;
+    padding: 37px 43px 48px;
+    background-image: 
+    url(../images/Group\ 14.png),
+    url(../images/Rectangle\ 15.png);
+    background-repeat: no-repeat;
+    background-position: 553px 50%, right;
+    background-color: #FAFBFD;
+    ;
+}
+.menu {
+    display: flex;
+}
+.menu img {
+    height: 40px;
+    width: 140px;
+    margin-left: 7px;
+    margin-right: 280px;
+    cursor: pointer;
+}
+.menu-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+.menu-list {
+    font-size: 10px;
+    line-height: 11.74px;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    color: #000000;
+}
+.menu-butn {
+    width: 130px;
+    margin-left: 120px;
+    background-color: #4285F4;
+}
+.start-butn {
+    width: 144px;
+    background-color: #EC5863;
+    margin-top: 23px;
+}
+.btns {
+    color: #FCFDFE;
+    font-size: 10px;
+    line-height: 11.74px;
+    letter-spacing: 1.4px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.about-site {
+    margin: 163px 0 0 27px;
+    width: 497px;
+    height: 220px;
+}
+.site-title {
+    font-size: 44px;
+    line-height: 55.44px;
+    color: #000000;
+}
+.site-title span {
+    color: #4285F4;
+}
+.site-desc {
+    font-size: 12px;
+    line-height: 16.62px;
+    letter-spacing: 1px;
+    color: #616161;
+    margin-top: 12px;
+}
+.video {
+    height: 44px;
+    width: 228px;
+    margin-top: 147px;
+    margin-left: 27px;
+    display: flex;
+    align-items: center;
+}
+.video p {
+    font-size: 13px;
+    line-height: 16.38px;
+    letter-spacing: 1px;
+    color: #b0b0b0;
+}
+.video span {
+    font-size: 9px;
+    line-height: 11.34px;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+.video-link {
+    width: 44px;
+    height: 44px;
+    background-image: url(../images/Group\ 23.png);
+    background-repeat: no-repeat;
+    margin-right: 12px;
+}
